@@ -20,9 +20,9 @@ public class NeonToast {
         Toast toast = new Toast(context);
         toast.setDuration(duration);
         toast.setView(view);
-        LinearLayout mainLayout = view.findViewById(R.id.mainLayoutID);
-        TextView txt = view.findViewById(R.id.textViewID);
-        ImageView img = view.findViewById(R.id.imageView);
+        LinearLayout mainLayout =(LinearLayout) view.findViewById(R.id.mainLayoutID);
+        TextView txt =(TextView) view.findViewById(R.id.textViewID);
+        ImageView img =(ImageView) view.findViewById(R.id.imageViewID);
         mainLayout.setBackground(AppCompatResources.getDrawable(context, R.drawable.bg_success));
         img.setImageDrawable(AppCompatResources.getDrawable(context, R.drawable.ic_success));
         txt.setText(msg);
@@ -36,9 +36,9 @@ public class NeonToast {
         Toast toast = new Toast(context);
         toast.setDuration(duration);
         toast.setView(view);
-        LinearLayout mainLayout = view.findViewById(R.id.mainLayoutID);
-        TextView txt = view.findViewById(R.id.textViewID);
-        ImageView img = view.findViewById(R.id.imageView);
+        LinearLayout mainLayout =(LinearLayout) view.findViewById(R.id.mainLayoutID);
+        TextView txt =(TextView) view.findViewById(R.id.textViewID);
+        ImageView img =(ImageView) view.findViewById(R.id.imageViewID);
         mainLayout.setBackground(AppCompatResources.getDrawable(context, R.drawable.bg_error));
         img.setImageDrawable(AppCompatResources.getDrawable(context, R.drawable.ic_wrong));
         txt.setText(msg);
@@ -53,9 +53,9 @@ public class NeonToast {
         Toast toast = new Toast(context);
         toast.setDuration(duration);
         toast.setView(view);
-        LinearLayout mainLayout = view.findViewById(R.id.mainLayoutID);
-        TextView txt = view.findViewById(R.id.textViewID);
-        ImageView img = view.findViewById(R.id.imageView);
+        LinearLayout mainLayout =(LinearLayout) view.findViewById(R.id.mainLayoutID);
+        TextView txt =(TextView) view.findViewById(R.id.textViewID);
+        ImageView img =(ImageView) view.findViewById(R.id.imageViewID);
         mainLayout.setBackground(AppCompatResources.getDrawable(context, R.drawable.bg_info));
         img.setImageDrawable(AppCompatResources.getDrawable(context, R.drawable.ic_error));
         txt.setText(msg);
@@ -69,9 +69,11 @@ public class NeonToast {
         Toast toast = new Toast(context);
         toast.setDuration(duration);
         toast.setView(view);
-        LinearLayout mainLayout = view.findViewById(R.id.mainLayoutID);
-        TextView txt = view.findViewById(R.id.textViewID);
-        ImageView img = view.findViewById(R.id.imageView);
+
+        LinearLayout mainLayout =(LinearLayout) view.findViewById(R.id.mainLayoutID);
+        TextView txt =(TextView) view.findViewById(R.id.textViewID);
+        ImageView img =(ImageView) view.findViewById(R.id.imageViewID);
+
         mainLayout.setBackground(AppCompatResources.getDrawable(context, R.drawable.bg_normal));
         img.setVisibility(View.GONE);
         txt.setTextColor(ColorStateList.valueOf(view.getResources().getColor(android.R.color.black)));
