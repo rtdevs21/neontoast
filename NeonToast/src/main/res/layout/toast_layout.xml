@@ -5,10 +5,10 @@
     android:layout_height="wrap_content"
     android:paddingStart="15dp"
     android:id="@+id/mainLayoutID"
-    android:paddingTop="15dp"
+    android:paddingTop="10dp"
     android:paddingEnd="30dp"
     android:orientation="horizontal"
-    android:paddingBottom="15dp"
+    android:paddingBottom="10dp"
     android:elevation="10dp"
     android:background="@drawable/bg_success">
 
